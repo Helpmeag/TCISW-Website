@@ -1,3 +1,7 @@
+const B2_KEY_ID = "00379b2dc6ed6420000000001";
+const B2_APP_KEY = "K003T6XP9XRs57oNtj054aJcVMUkd7s";
+const B2_BUCKET_ID = "c7896bc26d7c06ae9dc60412";
+
 const MAX_PDF_SIZE = 5 * 1024 * 1024; // 5MB
 const docStatus = document.getElementById("docStatus");
 const docList = document.getElementById("docList");
@@ -43,3 +47,4 @@ function renderDocs() {
 }
 
 renderDocs();
+
