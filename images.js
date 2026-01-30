@@ -10,7 +10,7 @@ documentsForm.addEventListener('submit', async e => {
     formData.append('file', file);
 
     try {
-        const res = await fetch('https://your-backend.onrender.com/upload', {
+        const res = await fetch('https://backend-skeleton-67.onrender.com', {
             method: 'POST',
             body: formData
         });
@@ -27,3 +27,4 @@ documentsForm.addEventListener('submit', async e => {
         alert('Upload failed');
     }
 });
+
